@@ -53,7 +53,7 @@ En otra terminal, ejecuta el consumidor de Spark Streaming con el paquete del co
 Bash
 spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.3 spark_streaming_consumer.py
 
-2. Procesamiento por lotes (Batch)
+Procesamiento por lotes (Batch)
 Una vez que el productor haya recolectado suficientes registros en el archivo local sensores_historicos.csv (puedes detener el productor con Ctrl + C), ejecuta el script de análisis batch:
 spark-submit batch_sensors.py
 
